@@ -7,9 +7,17 @@ linkinPark.AdicionarNota(new Avaliacao(8));
 linkinPark.AdicionarNota(new Avaliacao(6));
 Banda beatles = new Banda("The Beatles");
 
-Dictionary<string, Banda> bandasRegistradas = new ();
+Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(linkinPark.Nome, linkinPark);
 bandasRegistradas.Add(beatles.Nome, beatles);
+
+Dictionary<int, Menu> opcoes = new();
+opcoes.Add(1, new MenuRegistrarBanda());
+opcoes.Add(2, new MenuRegistrarAlbum());
+opcoes.Add(3, new MenuMostrarBandas());
+opcoes.Add(4, new MenuAvaliarBanda());
+opcoes.Add(5, new MenuExibirDetalhes());
+opcoes.Add(-1, new MenuSair());
 
 void ExibirLogo()
 {
@@ -38,6 +46,16 @@ void ExibirOpcoesDoMenu()
     Console.Write("\nDigite a sua opção: ");
     string opcaoEscolhida = Console.ReadLine()!;
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
+
+    if (opcoes.ContainsKey(opcaoEscolhidaNumerica))
+    {
+        Menu menuASerExibido = opcoes[opcaoEscolhidaNumerica];
+        //menuASerExibido.Executar();
+    }
+    else
+    {
+        Console.WriteLine("Opção inválida");
+    }
 
     switch (opcaoEscolhidaNumerica)
     {
@@ -73,5 +91,3 @@ void ExibirOpcoesDoMenu()
             break;
     }
 }
-
-ExibirOpcoesDoMenu();

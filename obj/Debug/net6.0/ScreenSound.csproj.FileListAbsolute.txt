@@ -1,0 +1,15 @@
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\bin\Debug\net6.0\ScreenSound.exe
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\bin\Debug\net6.0\ScreenSound.deps.json
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\bin\Debug\net6.0\ScreenSound.runtimeconfig.json
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\bin\Debug\net6.0\ScreenSound.dll
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\bin\Debug\net6.0\ScreenSound.pdb
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.csproj.AssemblyReference.cache
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.AssemblyInfo.cs
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.dll
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\refint\ScreenSound.dll
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.pdb
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ScreenSound.genruntimeconfig.cache
+C:\Dev\csharp-dominando-oop-alura\ScreenSound\obj\Debug\net6.0\ref\ScreenSound.dll

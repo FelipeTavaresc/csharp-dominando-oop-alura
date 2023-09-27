@@ -14,7 +14,7 @@ internal class MenuExibirDetalhes : Menu
             Banda banda = bandasRegistradas[nomeDaBanda];
             Console.WriteLine($"\nA média da banda {nomeDaBanda} é {banda.Media}.");
             Console.WriteLine("\nDiscografia;");
-            banda.Albuns.ForEach(a => Console.WriteLine($"{a.Nome} -> {a.Media}"));
+            banda.Albuns.ToList().ForEach(a => Console.WriteLine($"{a.Nome} -> {a.Media}"));
             Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
             Console.ReadKey();
             Console.Clear();

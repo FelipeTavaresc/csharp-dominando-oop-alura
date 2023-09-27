@@ -5,11 +5,11 @@ Banda linkinPark = new Banda("Linkin Park");
 linkinPark.AdicionarNota(new Avaliacao(10));
 linkinPark.AdicionarNota(new Avaliacao(8));
 linkinPark.AdicionarNota(new Avaliacao(6));
-Banda beatles = new Banda("The Beatles");
+Banda u2 = new Banda("U2");
 
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(linkinPark.Nome, linkinPark);
-bandasRegistradas.Add(beatles.Nome, beatles);
+bandasRegistradas.Add(u2.Nome, u2);
 
 Dictionary<int, Menu> opcoes = new();
 opcoes.Add(1, new MenuRegistrarBanda());

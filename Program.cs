@@ -1,5 +1,12 @@
 ﻿using ScreenSound.Menus;
 using ScreenSound.Models;
+using OpenAI_API;
+
+var client = new OpenAIAPI("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");
+var chat = client.Chat.CreateConversation();
+chat.AppendSystemMessage("Resuma a banda Linkin Park em um parágrafo, se possível seja bem informal");
+string resposta = await chat.GetResponseFromChatbotAsync();
+Console.WriteLine(resposta);
 
 Banda linkinPark = new Banda("Linkin Park");
 linkinPark.AdicionarNota(new Avaliacao(10));
@@ -61,4 +68,5 @@ void ExibirOpcoesDoMenu()
     }
 }
 
-ExibirOpcoesDoMenu();
+//ExibirOpcoesDoMenu();
+

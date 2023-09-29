@@ -1,12 +1,6 @@
-﻿using ScreenSound.Menus;
+﻿using OpenAI_API;
+using ScreenSound.Menus;
 using ScreenSound.Models;
-using OpenAI_API;
-
-var client = new OpenAIAPI();
-var chat = client.Chat.CreateConversation();
-chat.AppendSystemMessage("Resuma a banda Linkin Park em um parágrafo, se possível seja bem informal");
-string resposta = await chat.GetResponseFromChatbotAsync();
-Console.WriteLine(resposta);
 
 Banda linkinPark = new Banda("Linkin Park");
 linkinPark.AdicionarNota(new Avaliacao(10));
